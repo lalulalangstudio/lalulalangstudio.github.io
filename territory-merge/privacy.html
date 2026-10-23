@@ -19,12 +19,29 @@ Pengembang: Lalu Lalang Studio, merek dari PT. Tangrasula Tekno Kreatif (Indones
 <h2>Data yang dikumpulkan</h2>
 <p>Territory Merge tidak meminta pendaftaran akun dan tidak mengumpulkan email, nomor
 telepon, nama asli, atau lokasi GPS. Progres kampanye, level, bintang, badge, pengaturan,
-dan pertandingan yang sedang berjalan disimpan hanya di perangkat Anda. Data hanya
-dikirim keluar perangkat saat Anda memakai fitur online (lihat bagian berikut).</p>
+dan pertandingan yang sedang berjalan disimpan hanya di perangkat Anda. Data yang dikirim
+untuk fitur online dan yang dikumpulkan otomatis oleh SDK iklan Google dijelaskan di
+bagian berikut.</p>
 
-<h2>Iklan dan pembelian</h2>
-<p>Aplikasi ini tidak menampilkan iklan, tidak memakai ID iklan (advertising ID), dan
-tidak memiliki pembelian dalam aplikasi.</p>
+<h2>Iklan (Google AdMob)</h2>
+<p>Aplikasi ini menampilkan iklan berhadiah (rewarded) melalui Google AdMob. Iklan hanya
+diputar jika Anda memilih menontonnya: saat waktu pertandingan habis dan Anda belum menang,
+Anda dapat menonton satu iklan untuk tambahan 30 detik. Tidak ada iklan lain dan tidak ada
+pembelian dalam aplikasi. Untuk menayangkan dan mengukur iklan, Google dapat mengumpulkan
+data secara otomatis, antara lain:</p>
+<ul>
+  <li>ID iklan perangkat (advertising ID),</li>
+  <li>informasi perangkat dan jaringan (model, versi OS, alamat IP),</li>
+  <li>perkiraan lokasi kasar yang diturunkan dari alamat IP,</li>
+  <li>data interaksi dengan iklan (tayangan, klik),</li>
+  <li>log error dan data diagnostik SDK iklan.</li>
+</ul>
+<p>Pemrosesan data oleh Google diatur dalam
+<a href="https://policies.google.com/privacy">Kebijakan Privasi Google</a> dan
+<a href="https://support.google.com/admob/answer/6128543">informasi AdMob</a>.
+Di wilayah yang mewajibkannya (mis. Uni Eropa), formulir persetujuan akan
+ditampilkan sebelum iklan dipersonalisasi ditayangkan. Anda dapat mereset atau
+menonaktifkan ID iklan melalui pengaturan Google di perangkat Android Anda.</p>
 
 <h2>Fitur online (Tantangan Harian, Peringkat, Duel)</h2>
 <p>Untuk papan peringkat Tantangan Harian, peringkat Ranked, dan pencarian lawan duel,
@@ -60,8 +77,9 @@ Nama panggilan dan data pertandingan hanya dikirim ke perangkat lawan dan tidak 
 server mana pun. Kampanye dan skirmish melawan AI berjalan sepenuhnya di perangkat Anda.</p>
 
 <h2>Izin aplikasi</h2>
-<p>Territory Merge hanya menggunakan akses internet (untuk fitur online dan duel) dan
-getaran (efek getar saat bermain). Aplikasi ini tidak meminta izin lokasi, kamera,
+<p>Territory Merge menggunakan akses internet dan status jaringan (untuk fitur online, duel,
+dan iklan), ID iklan serta Android Ad Services dan wake lock (dipakai oleh SDK Google AdMob),
+dan getaran (efek getar saat bermain). Aplikasi ini tidak meminta izin lokasi, kamera,
 mikrofon, kontak, atau penyimpanan.</p>
 
 <h2>Penghapusan data</h2>
@@ -84,8 +102,13 @@ PT. Tangrasula Tekno Kreatif. Pertanyaan: <a href="mailto:lalulalangstudio@gmail
 <p class="en">Territory Merge is developed by Lalu Lalang Studio, a brand of PT. Tangrasula
 Tekno Kreatif (Indonesia). The game requires no account sign-up and does not collect email,
 phone number, real name or GPS location. Campaign progress, levels, stars, badges, settings and
-the match in progress are stored only on your device. The app shows no ads, does not use the
-advertising ID and has no in-app purchases. For the Daily Challenge leaderboard, Ranked ladder
+the match in progress are stored only on your device. The app shows rewarded ads via Google
+AdMob, played only when you choose to watch one: when a match's time runs out before you have
+won, you may watch one ad for 30 more seconds. There are no other ads and no in-app purchases.
+Google may automatically collect the device advertising ID, device/network information (model,
+OS version, IP address), approximate location derived from the IP address, ad interaction data,
+and SDK crash and diagnostic data, as described in Google's Privacy Policy. Where required
+(e.g. EEA), a consent form is shown before personalized ads are served. For the Daily Challenge leaderboard, Ranked ladder
 and duel matchmaking it uses Google Firebase (Google LLC): an anonymous user ID created
 automatically by Firebase Authentication, the nickname you choose (by default a random name such
 as "Komandan1234"), which other players can see on leaderboards and in duels, and game
@@ -97,7 +120,8 @@ connection; duel rooms are used only during the match and closed afterwards, and
 forwards messages between the two players without storing them. Google and Cloudflare process
 your IP address to deliver the traffic; we do not use it to determine your location. LAN duels on
 the same Wi-Fi connect devices directly, and campaign and skirmish play run entirely on your
-device. The app uses only internet access and vibration; it does not request location, camera,
+device. The app uses internet/network state, advertising ID, Android Ad Services and wake lock
+(used by the Google AdMob SDK) and vibration; it does not request location, camera,
 microphone, contacts or storage permissions. You can delete on-device data by uninstalling the
 app or clearing its data; to have your nickname, scores and rank data removed from the online
 leaderboards, email us with your nickname and we will delete it within 30 days. The app is not
