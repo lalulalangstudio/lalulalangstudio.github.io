@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi — Territory Merge</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222}
+  h1{font-size:1.6em} h2{font-size:1.2em;margin-top:1.6em}
+  .en{color:#555;font-style:italic}
+</style>
+</head>
+<body>
+<h1>Kebijakan Privasi — Territory Merge</h1>
+<p>Berlaku sejak: 23 Oktober 2026<br>
+Pengembang: Lalu Lalang Studio, merek dari PT. Tangrasula Tekno Kreatif (Indonesia)</p>
+<p class="en">(English summary at the bottom.)</p>
+
+<h2>Data yang dikumpulkan</h2>
+<p>Territory Merge tidak meminta pendaftaran akun dan tidak mengumpulkan email, nomor
+telepon, nama asli, atau lokasi GPS. Progres kampanye, level, bintang, badge, pengaturan,
+dan pertandingan yang sedang berjalan disimpan hanya di perangkat Anda. Data hanya
+dikirim keluar perangkat saat Anda memakai fitur online (lihat bagian berikut).</p>
+
+<h2>Iklan dan pembelian</h2>
+<p>Aplikasi ini tidak menampilkan iklan, tidak memakai ID iklan (advertising ID), dan
+tidak memiliki pembelian dalam aplikasi.</p>
+
+<h2>Fitur online (Tantangan Harian, Peringkat, Duel)</h2>
+<p>Untuk papan peringkat Tantangan Harian, peringkat Ranked, dan pencarian lawan duel,
+aplikasi memakai layanan Google Firebase (Google LLC):</p>
+<ul>
+  <li><b>ID pengguna anonim</b> dari Firebase Authentication, dibuat otomatis tanpa email
+  atau nomor telepon,</li>
+  <li><b>nama panggilan</b> yang Anda pilih (bawaan berupa nama acak seperti
+  "Komandan1234"), yang terlihat oleh pemain lain di papan peringkat dan saat duel,</li>
+  <li><b>skor dan statistik permainan</b>: skor Tantangan Harian, bintang rank, jumlah
+  menang dan jumlah pertandingan.</li>
+</ul>
+<p>Skor dan data rank disimpan di Cloud Firestore agar papan peringkat dapat ditampilkan.
+Aturan basis data membatasi setiap pemain hanya dapat mengubah datanya sendiri.
+Pemrosesan oleh Google diatur dalam
+<a href="https://policies.google.com/privacy">Kebijakan Privasi Google</a> dan
+<a href="https://firebase.google.com/support/privacy">informasi privasi Firebase</a>.</p>
+
+<h2>Multiplayer online (Duel 1 lawan 1)</h2>
+<p>Saat Anda bermain duel online (pencarian cepat, Ranked, atau kode room), nama
+panggilan, bintang rank, dan perintah permainan (pembelian unit, gerakan, penggabungan)
+dikirim ke perangkat lawan melalui Firebase Realtime Database dan server relay kami yang
+berjalan di Cloudflare Workers (Cloudflare, Inc.). Koneksi dienkripsi (TLS). Room duel
+hanya dipakai selama pertandingan dan ditutup setelahnya; relay hanya meneruskan pesan
+antara dua pemain dan tidak menyimpannya. Seperti koneksi internet pada umumnya, Google
+dan Cloudflare memproses alamat IP perangkat Anda untuk mengantarkan data, sesuai
+<a href="https://www.cloudflare.com/privacypolicy/">Kebijakan Privasi Cloudflare</a>.
+Kami tidak memakai alamat IP untuk menentukan lokasi Anda.</p>
+
+<h2>Multiplayer Wi-Fi (LAN) dan mode offline</h2>
+<p>Duel lewat Wi-Fi yang sama terhubung langsung antar perangkat di jaringan lokal.
+Nama panggilan dan data pertandingan hanya dikirim ke perangkat lawan dan tidak melewati
+server mana pun. Kampanye dan skirmish melawan AI berjalan sepenuhnya di perangkat Anda.</p>
+
+<h2>Izin aplikasi</h2>
+<p>Territory Merge hanya menggunakan akses internet (untuk fitur online dan duel) dan
+getaran (efek getar saat bermain). Aplikasi ini tidak meminta izin lokasi, kamera,
+mikrofon, kontak, atau penyimpanan.</p>
+
+<h2>Penghapusan data</h2>
+<p>Progres yang tersimpan di perangkat dapat dihapus dengan menghapus aplikasi atau
+menghapus data aplikasi di pengaturan Android. Untuk menghapus nama panggilan, skor, dan
+data rank Anda dari papan peringkat online, kirim email ke alamat di bawah dengan
+menyertakan nama panggilan Anda. Kami akan menghapusnya dalam 30 hari.</p>
+
+<h2>Anak-anak</h2>
+<p>Aplikasi ini tidak ditujukan untuk anak di bawah 13 tahun dan tidak dengan sengaja
+mengumpulkan data pribadi anak.</p>
+
+<h2>Perubahan & kontak</h2>
+<p>Kebijakan ini dapat diperbarui sewaktu-waktu; versi terbaru selalu tersedia di
+halaman ini. Territory Merge dikembangkan oleh Lalu Lalang Studio, merek dari
+PT. Tangrasula Tekno Kreatif. Pertanyaan: <a href="mailto:lalulalangstudio@gmail.com">lalulalangstudio@gmail.com</a>.</p>
+
+<hr>
+<h2>English summary</h2>
+<p class="en">Territory Merge is developed by Lalu Lalang Studio, a brand of PT. Tangrasula
+Tekno Kreatif (Indonesia). The game requires no account sign-up and does not collect email,
+phone number, real name or GPS location. Campaign progress, levels, stars, badges, settings and
+the match in progress are stored only on your device. The app shows no ads, does not use the
+advertising ID and has no in-app purchases. For the Daily Challenge leaderboard, Ranked ladder
+and duel matchmaking it uses Google Firebase (Google LLC): an anonymous user ID created
+automatically by Firebase Authentication, the nickname you choose (by default a random name such
+as "Komandan1234"), which other players can see on leaderboards and in duels, and game
+statistics (daily scores, rank stars, wins and matches) stored in Cloud Firestore. Database rules
+let each player change only their own records. In online duels, your nickname, rank stars and
+game commands (unit purchases, moves, merges) are sent to your opponent through Firebase Realtime
+Database and our relay server on Cloudflare Workers (Cloudflare, Inc.) over an encrypted (TLS)
+connection; duel rooms are used only during the match and closed afterwards, and the relay only
+forwards messages between the two players without storing them. Google and Cloudflare process
+your IP address to deliver the traffic; we do not use it to determine your location. LAN duels on
+the same Wi-Fi connect devices directly, and campaign and skirmish play run entirely on your
+device. The app uses only internet access and vibration; it does not request location, camera,
+microphone, contacts or storage permissions. You can delete on-device data by uninstalling the
+app or clearing its data; to have your nickname, scores and rank data removed from the online
+leaderboards, email us with your nickname and we will delete it within 30 days. The app is not
+directed at children under 13. Contact: lalulalangstudio@gmail.com.</p>
+</body>
+</html>
