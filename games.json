@@ -68,6 +68,18 @@
       "icon": "games/icons/warung-chaos.png",
       "color": "#2FA36B",
       "privacy": "warung-chaos/privacy.html"
+    },
+    {
+      "id": "echo-pulse",
+      "title": "Echo Pulse",
+      "tagline_id": "Dengarkan frasanya, ulangi dari ingatan, bangun jalanmu.",
+      "tagline_en": "Hear the phrase, echo it from memory, build your path.",
+      "genre": "Music",
+      "package": "com.lalulalang.echopulse",
+      "onPlay": false,
+      "icon": "games/icons/echo-pulse.png",
+      "color": "#C86B98",
+      "privacy": "echo-pulse/privacy.html"
     }
   ]
 }
