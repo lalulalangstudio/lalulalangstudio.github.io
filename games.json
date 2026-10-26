@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated": "2026-10-26",
+  "studio": {
+    "name": "lalulalang studio",
+    "url": "https://lalulalangstudio.github.io/",
+    "moreGamesPage": "https://lalulalangstudio.github.io/games/",
+    "playDeveloperPage": "https://play.google.com/store/apps/dev?id=6151755212259274662",
+    "email": "lalulalangstudio@gmail.com"
+  },
+  "games": [
+    {
+      "id": "boom-relay",
+      "title": "Boom Relay: City Defense",
+      "tagline_id": "Tangkap dan lempar balik bom sebelum kotamu hancur.",
+      "tagline_en": "Catch the bombs and throw them back before your city falls.",
+      "genre": "Arcade",
+      "package": "com.lalulalang.boomrelay",
+      "onPlay": true,
+      "icon": "games/icons/boom-relay.png",
+      "color": "#E8553D",
+      "privacy": "boom-relay/privacy.html"
+    },
+    {
+      "id": "kurir-mania",
+      "title": "Kurir Mania",
+      "tagline_id": "Jadi kurir motor: ambil paket, kejar waktu, taat lalu lintas.",
+      "tagline_en": "Ride as a courier: grab parcels, beat the clock, mind the traffic.",
+      "genre": "Racing",
+      "package": "com.lalulalang.kurirmania",
+      "onPlay": true,
+      "icon": "games/icons/kurir-mania.png",
+      "color": "#F2A23A",
+      "privacy": "kurir-mania/privacy.html"
+    },
+    {
+      "id": "territory-merge",
+      "title": "Territory Merge: Strategi Hex",
+      "tagline_id": "Gabungkan unit kembar, rebut wilayah hex, hancurkan markas musuh.",
+      "tagline_en": "Merge twin units, take the hex map, topple the enemy base.",
+      "genre": "Strategy",
+      "package": "com.lalulalang.territorymerge",
+      "onPlay": true,
+      "icon": "games/icons/territory-merge.png",
+      "color": "#3D7FD9",
+      "privacy": "territory-merge/privacy.html"
+    },
+    {
+      "id": "gravity-chain",
+      "title": "Gravity Chain: Puzzle Blok",
+      "tagline_id": "Sambungkan 3 warna sama sampai lantai, picu kombo berantai.",
+      "tagline_en": "Link 3 matching colours to the floor and set off chain combos.",
+      "genre": "Puzzle",
+      "package": "com.lalulalang.gravitychain",
+      "onPlay": false,
+      "icon": "games/icons/gravity-chain.png",
+      "color": "#8A5CF6",
+      "privacy": "gravity-chain/privacy.html"
+    },
+    {
+      "id": "warung-chaos",
+      "title": "Warung Chaos: Dapur Nusantara",
+      "tagline_id": "Masak serba cepat di warung dari seluruh Nusantara.",
+      "tagline_en": "Fast-paced cooking in food stalls from across Indonesia.",
+      "genre": "Casual",
+      "package": "com.warungchaos.warung_chaos",
+      "onPlay": false,
+      "icon": "games/icons/warung-chaos.png",
+      "color": "#2FA36B",
+      "privacy": "warung-chaos/privacy.html"
+    }
+  ]
+}
