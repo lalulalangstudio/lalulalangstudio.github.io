@@ -52,7 +52,7 @@
       "tagline_en": "Link 3 matching colours to the floor and set off chain combos.",
       "genre": "Puzzle",
       "package": "com.lalulalang.gravitychain",
-      "onPlay": false,
+      "onPlay": true,
       "icon": "games/icons/gravity-chain.png",
       "color": "#8A5CF6",
       "privacy": "gravity-chain/privacy.html"
