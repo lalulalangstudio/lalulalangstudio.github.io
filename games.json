@@ -64,7 +64,7 @@
       "tagline_en": "Fast-paced cooking in food stalls from across Indonesia.",
       "genre": "Casual",
       "package": "com.warungchaos.warung_chaos",
-      "onPlay": false,
+      "onPlay": true,
       "icon": "games/icons/warung-chaos.png",
       "color": "#2FA36B",
       "privacy": "warung-chaos/privacy.html"
