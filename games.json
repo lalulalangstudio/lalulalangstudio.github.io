@@ -10,16 +10,16 @@
   },
   "games": [
     {
-      "id": "boom-relay",
-      "title": "Boom Relay: City Defense",
-      "tagline_id": "Tangkap dan lempar balik bom sebelum kotamu hancur.",
-      "tagline_en": "Catch the bombs and throw them back before your city falls.",
-      "genre": "Arcade",
-      "package": "com.lalulalang.boomrelay",
+      "id": "warung-chaos",
+      "title": "Warung Chaos: Dapur Nusantara",
+      "tagline_id": "Masak serba cepat di warung dari seluruh Nusantara.",
+      "tagline_en": "Fast-paced cooking in food stalls from across Indonesia.",
+      "genre": "Role Playing",
+      "package": "com.warungchaos.warung_chaos",
       "onPlay": true,
-      "icon": "games/icons/boom-relay.png",
-      "color": "#E8553D",
-      "privacy": "boom-relay/privacy.html"
+      "icon": "games/icons/warung-chaos.png",
+      "color": "#2FA36B",
+      "privacy": "warung-chaos/privacy.html"
     },
     {
       "id": "kurir-mania",
@@ -58,16 +58,16 @@
       "privacy": "gravity-chain/privacy.html"
     },
     {
-      "id": "warung-chaos",
-      "title": "Warung Chaos: Dapur Nusantara",
-      "tagline_id": "Masak serba cepat di warung dari seluruh Nusantara.",
-      "tagline_en": "Fast-paced cooking in food stalls from across Indonesia.",
-      "genre": "Role Playing",
-      "package": "com.warungchaos.warung_chaos",
+      "id": "boom-relay",
+      "title": "Boom Relay: City Defense",
+      "tagline_id": "Tangkap dan lempar balik bom sebelum kotamu hancur.",
+      "tagline_en": "Catch the bombs and throw them back before your city falls.",
+      "genre": "Arcade",
+      "package": "com.lalulalang.boomrelay",
       "onPlay": true,
-      "icon": "games/icons/warung-chaos.png",
-      "color": "#2FA36B",
-      "privacy": "warung-chaos/privacy.html"
+      "icon": "games/icons/boom-relay.png",
+      "color": "#E8553D",
+      "privacy": "boom-relay/privacy.html"
     },
     {
       "id": "echo-pulse",
